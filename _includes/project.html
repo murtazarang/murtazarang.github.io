@@ -1,7 +1,7 @@
 <article id="{{ include.project.id }}" class="flex flex-col md:flex-row gap-6 py-7 border-b border-border last:border-b-0 scroll-mt-8">
-  <div class="w-24 h-24 md:w-28 md:h-28 flex-shrink-0 bg-surface-muted flex items-center justify-center {% unless include.project.image %}px-3{% endunless %} rounded-lg overflow-hidden">
+  <div class="w-24 h-24 md:w-28 md:h-28 flex-shrink-0 {% if include.project.image_fit == 'contain' %}bg-white{% else %}bg-surface-muted{% endif %} flex items-center justify-center {% unless include.project.image %}px-3{% endunless %} rounded-lg overflow-hidden">
     {% if include.project.image %}
-    <img src="{{ '/images/' | append: include.project.image | relative_url }}" alt="{{ include.project.image_alt | default: include.project.title }}" class="w-full h-full object-cover">
+    <img src="{{ '/images/' | append: include.project.image | relative_url }}" alt="{{ include.project.image_alt | default: include.project.title }}" class="w-full h-full" style="object-fit: {{ include.project.image_fit | default: 'cover' }};">
     {% else %}
     <span class="font-display text-2xl font-semibold text-text text-center">{{ include.project.mark }}</span>
     {% endif %}

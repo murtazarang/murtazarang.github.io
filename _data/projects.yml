@@ -14,6 +14,8 @@
   date: Current research
   role: Lead researcher
   mark: Z
+  image: morton.png
+  image_alt: Multi-agent environments and spatial grids arranged using Morton order
   url: /research/#field-topology
   tags: [MARL, Swarm Coordination, Spatial Topology]
   description: >-
@@ -25,6 +27,9 @@
   date: 2018–2020
   role: Creator and first author
   mark: SAR
+  image: sarnet.png
+  image_alt: SARNet architecture with thought, question, memory, action, and critic units
+  image_fit: contain
   url: https://github.com/caslab-vt/SARNet
   tags: [MARL, Attention, Communication, TensorFlow]
   description: >-
@@ -46,6 +51,9 @@
   date: 2019–2024
   role: Research contributor
   mark: T-ASE
+  image: t-ase.jpg
+  image_alt: Data synthesis, spatiotemporal learning, planning, and evaluation pipeline for robotic forage perception
+  image_fit: contain
   url: https://doi.org/10.1109/TASE.2022.3211873
   tags: [Robotics, Prediction, Planning]
   description: >-
@@ -126,6 +134,8 @@
     Led a three-person suspension and brakes team through subsystem design, vehicle integration, and skidpad validation.
     The car won the Skid Pad event at SUPRA SAE India 2011 against 44 other college teams.
   links:
+    - label: New Indian Express coverage
+      url: https://www.newindianexpress.com/sport/2011/Jul/08/team-haya-drives-to-glory-269380.html
     - label: Archived article
       url: https://web.archive.org/web/20260905135404/https://bangaloremirror.indiatimes.com/bangalore/others/pesit-formula-racing-team-wins-national-event/articleshow/21560614.cms
 

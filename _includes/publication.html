@@ -5,7 +5,8 @@
       {% if include.pub.image %}
       <img src="{{ '/images/' | append: include.pub.image | relative_url }}"
            alt="{{ include.pub.title }}"
-           class="w-full h-full object-cover">
+           class="w-full h-full"
+           style="object-fit: {{ include.pub.image_fit | default: 'cover' }};">
       {% else %}
       <div class="w-full h-full bg-surface-muted flex items-center justify-center px-3">
         <span class="font-display text-3xl font-semibold text-text text-center">{{ include.pub.mark }}</span>

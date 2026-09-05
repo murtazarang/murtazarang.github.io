@@ -7,12 +7,15 @@
 - id: sarnet
   title: SARNet
   mark: SAR
+  image: sarnet.png
+  image_fit: contain
   description: Learned structured communication for cooperative and competitive multi-agent tasks.
   url: https://github.com/caslab-vt/SARNet
 
 - id: field-topology
   title: Field-Topology Feedback
   mark: Z
+  image: morton.png
   description: Morton Z-code feedback for coordinating heterogeneous swarms over structured fields.
   url: /research/#field-topology
 

@@ -5,6 +5,8 @@
   project_page: https://doi.org/10.1109/TASE.2022.3211873
   arxiv: 2112.09203
   mark: T-ASE
+  image: t-ase.jpg
+  image_fit: contain
   authors:
     - jun
     - murtaza
@@ -20,6 +22,8 @@
   description: "Long-horizon pasture prediction from synthetic spatio-temporal datasets for planning agricultural-robot deployments."
   project_page: https://doi.org/10.3390/agronomy11112245
   mark: DP
+  image: deepastl.png
+  image_fit: contain
   authors:
     - murtaza
     - jun
@@ -37,6 +41,8 @@
   project_page: https://proceedings.neurips.cc/paper/2020/hash/72ab54f9b8c11fae5b923d7f854ef06a-Abstract.html
   github: caslab-vt/SARNet
   mark: SAR
+  image: sarnet.png
+  image_fit: contain
   authors:
     - murtaza
     - ryan
