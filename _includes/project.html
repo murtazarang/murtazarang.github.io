@@ -1,0 +1,29 @@
+<article id="{{ include.project.id }}" class="flex flex-col md:flex-row gap-6 py-7 border-b border-border last:border-b-0 scroll-mt-8">
+  <div class="w-24 h-24 md:w-28 md:h-28 flex-shrink-0 bg-surface-muted flex items-center justify-center px-3 rounded-lg">
+    <span class="font-display text-2xl font-semibold text-text text-center">{{ include.project.mark }}</span>
+  </div>
+  <div class="flex-1">
+    <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
+      <h2 class="font-serif text-xl font-semibold text-text">
+        {% if include.project.url %}<a href="{{ include.project.url }}" class="no-underline hover:text-text-body">{% endif %}
+          {{ include.project.title }}
+        {% if include.project.url %}</a>{% endif %}
+      </h2>
+      <span class="text-text-muted text-sm flex-shrink-0">{{ include.project.date }}</span>
+    </div>
+    <p class="text-text-muted text-sm mt-1">{{ include.project.role }}</p>
+    <p class="text-text-body mt-3">{{ include.project.description }}</p>
+    <div class="flex flex-wrap gap-2 mt-3">
+      {% for tag in include.project.tags %}
+      <span class="font-sans text-xs text-text-muted bg-surface-muted px-2 py-1 rounded">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% if include.project.links %}
+    <div class="flex flex-wrap gap-4 mt-3 text-sm">
+      {% for link in include.project.links %}
+      <a href="{{ link.url }}" class="text-text-muted hover:text-text no-underline">{{ link.label }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</article>

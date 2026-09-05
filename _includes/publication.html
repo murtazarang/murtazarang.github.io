@@ -2,9 +2,15 @@
   <!-- Thumbnail -->
   <div class="w-full md:w-1/5 flex-shrink-0">
     <div class="publication-mousecell relative overflow-hidden rounded-lg aspect-square">
+      {% if include.pub.image %}
       <img src="{{ '/images/' | append: include.pub.image | relative_url }}"
            alt="{{ include.pub.title }}"
            class="w-full h-full object-cover">
+      {% else %}
+      <div class="w-full h-full bg-surface-muted flex items-center justify-center px-3">
+        <span class="font-display text-3xl font-semibold text-text text-center">{{ include.pub.mark }}</span>
+      </div>
+      {% endif %}
       {% if include.pub.image_mouseover %}
       <video src="{{ '/images/' | append: include.pub.image_mouseover | relative_url }}"
              class="absolute inset-0 w-full h-full object-cover hidden"
@@ -76,6 +82,12 @@
       <a href="https://github.com/{{ include.pub.github }}" class="inline-flex items-center text-text-muted hover:text-text no-underline">
         {% include icons/github.html class="w-4 h-4 mr-1" %}
         Code
+      </a>
+      {% endif %}
+      {% if include.pub.doi %}
+      <a href="https://doi.org/{{ include.pub.doi }}" class="inline-flex items-center text-text-muted hover:text-text no-underline">
+        {% include icons/document.html class="w-4 h-4 mr-1" %}
+        DOI
       </a>
       {% endif %}
     </div>

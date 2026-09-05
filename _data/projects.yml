@@ -1,0 +1,133 @@
+- id: casrl
+  title: Coordination for Scale RL (casRL)
+  date: 2020–Present
+  role: Sole creator and principal architect
+  mark: casRL
+  url: https://github.com/multiagentrl/casRL
+  tags: [Python, PyTorch, RL, MARL, CUDA]
+  description: >-
+    An open-source research framework that builds RL and MARL experiments from reusable implementations of policies, rollout collection, replay, objectives, optimization, and model updates.
+    casRL implements more than 100 algorithms and variants across online, offline, hybrid, single-agent, and multi-agent learning and sustains 2–4 million environment steps per second during end-to-end single-node training on one CPU and one GPU.
+
+- id: field-topology
+  title: Field-Topology Feedback for Heterogeneous Swarms
+  date: Current research
+  role: Lead researcher
+  mark: Z
+  url: /research/#field-topology
+  tags: [MARL, Swarm Coordination, Spatial Topology]
+  description: >-
+    Field-topology feedback based on Gray-code Morton order for coordinating heterogeneous swarms over spatially structured fields.
+    A manuscript is in preparation for ICRA 2027.
+
+- id: sarnet
+  title: Structured Attentive Reasoning Network (SARNet)
+  date: 2018–2020
+  role: Creator and first author
+  mark: SAR
+  url: https://github.com/caslab-vt/SARNet
+  tags: [MARL, Attention, Communication, TensorFlow]
+  description: >-
+    A memory-based attention architecture that learns communication and structured reasoning in cooperative and competitive multi-agent tasks.
+    The work appeared at NeurIPS 2020 and includes a multiprocessing TensorFlow training implementation.
+
+- id: md-maddpg
+  title: Independent MD-MADDPG Implementation
+  date: 2018–2019
+  role: Independent implementation
+  mark: MD
+  url: https://github.com/murtazarang/MD-MADDPG
+  tags: [Python, MARL, Communication]
+  description: >-
+    Reimplemented MD-MADDPG from its published specification when author code was unavailable, including its learned shared-memory communication mechanism.
+
+- id: intermittent-deployment
+  title: Intermittent Multi-Robot Forage Perception
+  date: 2019–2024
+  role: Research contributor
+  mark: T-ASE
+  url: https://doi.org/10.1109/TASE.2022.3211873
+  tags: [Robotics, Prediction, Planning]
+  description: >-
+    Developed DeepPaSTL for long-horizon pasture prediction and contributed to a data-synthesis, prediction, planning, and intermittent-deployment pipeline for agricultural robot teams.
+
+- id: chirp
+  title: CHIRP Laboratory Research
+  date: 2018
+  role: Research contributor
+  mark: LIGO
+  url: https://www.ligo.org/science/Publication-GW150914/index.php
+  tags: [Statistical Analysis, Parameter Estimation]
+  description: >-
+    Contributed to statistical analysis and parameter estimation for GW150914, the binary black-hole merger observed by the Laser Interferometer Gravitational-Wave Observatory.
+
+- id: distributed-a3c
+  title: Distributed Multi-Agent A3C
+  date: 2018
+  role: Research project
+  mark: A3C
+  tags: [RL, MARL, Distributed Training]
+  description: >-
+    Implemented distributed multi-agent asynchronous advantage actor–critic for mixed cooperative–competitive environments using centralized critics and asynchronous actor execution.
+
+- id: hierarchical-driving
+  title: Hierarchical RL for Autonomous Driving
+  date: 2018
+  role: Research project
+  mark: HRL
+  tags: [Autonomous Driving, Hierarchical RL]
+  description: >-
+    Investigated hierarchical multi-agent reinforcement learning for joint motion planning and trajectory control in autonomous-driving systems.
+
+- id: autonomous-drone
+  title: Learning to Fly by Crashing
+  date: 2018
+  role: Research project
+  mark: UAV
+  url: https://github.com/murtazarang/Learning-to-Fly-By-Crashing
+  tags: [Reinforcement Learning, ROS, TensorFlow]
+  description: >-
+    Trained an autonomous flight policy from a large crash dataset using reinforcement learning, ROS, and TensorFlow.
+
+- id: pisat
+  title: PISat Remote-Sensing Nanosatellite
+  date: Undergraduate program
+  role: Team captain and electrical power-systems lead
+  mark: πSat
+  url: https://directory.eoportal.org/satellite-missions/pisat#spacecraft
+  tags: [Space Systems, Power Electronics, Reliability]
+  description: >-
+    Captained the student satellite program and led its electrical power-system design with former ISRO scientists.
+    The 5.25 kg satellite launched aboard PSLV-C35 on September 26, 2016 and operated successfully in orbit for one year.
+  links:
+    - label: The Hindu coverage
+      url: https://www.thehindu.com/news/cities/bangalore/Student-satellite-PiSAT-is-doing-good/article14799374.ece
+    - label: SatNews coverage
+      url: https://satnews.com/2016/11/23/pisat-2-smallsat-coming-to-fruition/
+    - label: Wikipedia
+      url: https://en.wikipedia.org/wiki/PISat
+    - label: Archived ISRO page
+      url: https://web.archive.org/web/20170609075429/http://www.isro.gov.in/Spacecraft/pisat
+
+- id: team-haya
+  title: Team Haya Formula SAE
+  date: 2011
+  role: Suspension and brakes team lead
+  mark: FSAE
+  url: https://bangaloremirror.indiatimes.com/bangalore/others/pesit-formula-racing-team-wins-national-event/articleshow/21560614.cms
+  tags: [Vehicle Dynamics, Suspension, Brakes]
+  description: >-
+    Led a three-person suspension and brakes team through subsystem design, vehicle integration, and skidpad validation.
+    The car won the Skid Pad event at SUPRA SAE India 2011 against 44 other college teams.
+  links:
+    - label: Archived article
+      url: https://web.archive.org/web/20260905135404/https://bangaloremirror.indiatimes.com/bangalore/others/pesit-formula-racing-team-wins-national-event/articleshow/21560614.cms
+
+- id: power-electronics
+  title: Power Electronics and Optimization
+  date: 2012
+  role: Undergraduate research
+  mark: PE
+  tags: [Power Electronics, Neural Networks, Optimization]
+  description: >-
+    Evaluated neural-network and particle-swarm methods for economic load dispatch and derived state-space averaged transfer functions for non-ideal DC–DC converters with parasitic components.

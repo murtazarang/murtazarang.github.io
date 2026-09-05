@@ -1,0 +1,20 @@
+---
+layout: default
+title: Projects · Murtaza Rangwala
+description: Research software, multi-agent learning, robotics, space systems, and vehicle engineering projects by Murtaza Rangwala.
+permalink: /projects/
+---
+
+<section class="py-12 md:py-16 bg-surface">
+  <div class="max-w-4xl mx-auto px-6">
+    <h1 class="font-display text-3xl md:text-4xl font-semibold text-text">Projects</h1>
+    <p class="text-text-body mt-4 max-w-3xl leading-relaxed">My projects span reinforcement learning, multi-agent communication, robot coordination, vehicle engineering, and space systems. Each entry links to code, a paper, or an independent reference when one is available.</p>
+  </div>
+</section>
+<section class="pb-12 md:pb-16 bg-surface">
+  <div class="max-w-4xl mx-auto px-6">
+    {% for project in site.data.projects %}
+      {% include project.html project=project %}
+    {% endfor %}
+  </div>
+</section>

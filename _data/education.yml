@@ -1,11 +1,14 @@
-- name: University of Washington 
+- name: Virginia Tech
   description: >-
-    Ph. D in Computer Science, advised by <a href="https://smseitz.com">Steven M. Seitz</a> and
-    <a href="https://homes.cs.washington.edu/~ali/">Ali Farhadi</a>.<br />
-    Supported by Samsung Scholarship 2015-2020 ($50,000/year for 5 years)
-  dates: Fall 2015 - Spring 2022
+    Ph.D. Candidate in Electrical Engineering, advised by R. K. Williams.<br />
+    Dissertation: <em>Composable Systems for Unified Single- and Multi-Agent Reinforcement Learning</em>.<br />
+    Expected graduation: December 16, 2026.
+  dates: 2020–2026
 
-- name: University of Illinois at Urbana-Champaign
-  description: >-
-    B.S. in Computer Science, advised by <a href="https://dhoiem.cs.illinois.edu/">Derek Hoiem</a>.
-  dates: Fall 2009 - Spring 2013
+- name: Virginia Tech
+  description: M.S. in Electrical Engineering.
+  dates: 2017–2020
+
+- name: PES Institute of Technology (now PES University)
+  description: B.E. in Electrical and Electronics Engineering.
+  dates: 2008–2012

@@ -1,47 +1,48 @@
-- company: World Labs
-  description: Founding Member leading pretraining efforts. Creator of <a href="https://www.worldlabs.ai/blog/rtfm">RTFM</a>.
-  dates: "Jan 2024 - (current)"
-  location: San Francisco, CA
-
-- company: Google
-  description: Research Scientist. Co-built the team and technologies to <a href="https://research.google/blog/bringing-3d-shoppable-products-online-with-generative-ai/">generate 3D assets for products on Google Search</a>.
-  dates: "May 2022 - Jan 2024"
-  location: San Francisco, CA
-
-- company: Google
+- company: Laboratory for Coordination at Scale, Virginia Tech
+  role: Ph.D. Researcher
   description: >-
-    Research Intern on the <a href="https://blog.google/technology/research/project-starline/">Project Starline</a> team.
-    Published <a href="https://nerfies.github.io">Nerfies</a> and <a href="https://hypernerf.github.io">HyperNeRF</a>.
-  dates: "Jun 2020 - Sep 2021"
-  location: Seattle, WA
+    Created Coordination for Scale RL (casRL), an open-source PyTorch framework for reusable RL and MARL research.
+    Implemented more than 100 algorithms and variants and sustained 2–4 million environment steps per second during end-to-end training on one CPU and one GPU.
+  dates: 2020–Present
+  location: Blacksburg, VA
 
-- company: NVIDIA
+- company: Laboratory for Coordination at Scale, Virginia Tech
+  role: M.S. Researcher
   description: >-
-    Robotics Research Intern at the <a href="https://www.nvidia.com/en-us/research/robotics/">Seattle Robotics Lab</a>.
-    Worked on <a href="https://latentfusion.github.io">LatentFusion</a>.
-  dates: "Jul 2019 - Nov 2019"
-  location: Seattle, WA
+    Created SARNet, independently implemented MD-MADDPG from its paper, and developed learning and planning methods for long-horizon agricultural-robot deployments.
+  dates: 2017–2020
+  location: Blacksburg, VA
 
-- company: Amazon
-  description: >- 
-    Applied Scientist Intern on the <a href="https://amazon.com/go">Amazon Go</a> team.
-    Worked on human activity detection.
-  dates: "Jul 2017 - Sep 2017"
-  location: Seattle, WA
-
-- company: Ministry of National Defense, Cyber Command
-  description: Software Engineer (mandatory military service). Worked on network monitoring software.
-  dates: "Oct 2013 - Jul 2015"
-  location: Seoul, Korea
-
-- company: Google
-  description: Software Engineering Intern. Create document conversion system for Google Cloud Print.
-  dates: "May 2013 - Aug 2013"
-  location: Mountain View, CA
-
-- company: Qualcomm
+- company: Virginia Tech
+  role: Graduate Teaching Assistant
   description: >-
-    Software Engineering Intern. Optimized performance of JGit, reducing push times from hours to seconds.
-    Implemented multi-master support for Gerrit Code Review.
-  dates: "May 2012 - Aug 2012"
-  location: Boulder, CO
+    Led power-engineering laboratories and assessed circuit-analysis coursework, including grading for a class of 113 students.
+  dates: 2018–Present
+  location: Blacksburg, VA
+
+- company: LightSpeed Mobility
+  role: Co-Founder
+  description: >-
+    Defined product strategy and led engineering and sourcing for two electric two-wheelers.
+    Launched one product below the price of comparable products in India and helped raise more than $200,000 through private investment and crowdfunding.
+  dates: 2016–2017
+  location: Ahmedabad, India
+
+- company: Volvo Trucks
+  role: EE System Leader
+  description: >-
+    Led a cross-functional pre-study involving more than 40 people on Ethernet-based ECU software delivery, directed a major cost-optimization program, and led engineering and purchasing for a suspension-control product.
+  dates: 2013–2015
+  location: Bengaluru, India
+- company: Volvo Trucks
+  role: EE System Design Engineer
+  description: >-
+    Architected electrical and ECU systems for medium-duty trucks, pioneered a physical-layer vehicle-network simulation for verification, and served as the primary technical owner for body-builder applications.
+  dates: 2012–2013
+  location: Bengaluru, India
+
+- company: PES Institute of Technology
+  role: Guest Lecturer
+  description: Designed and delivered suspension-design course material to more than 50 undergraduate engineering students.
+  dates: 2013
+  location: Bengaluru, India
