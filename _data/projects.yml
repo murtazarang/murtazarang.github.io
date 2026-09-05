@@ -94,6 +94,8 @@
   date: Undergraduate program
   role: Team captain and electrical power-systems lead
   mark: πSat
+  image: pisat.jpg
+  image_alt: PISat remote-sensing nanosatellite during ground integration
   url: https://directory.eoportal.org/satellite-missions/pisat#spacecraft
   tags: [Space Systems, Power Electronics, Reliability]
   description: >-
@@ -116,6 +118,8 @@
   date: 2011
   role: Suspension and brakes team lead
   mark: FSAE
+  image: haya.jpg
+  image_alt: Team Haya Formula SAE race car during track testing
   url: https://bangaloremirror.indiatimes.com/bangalore/others/pesit-formula-racing-team-wins-national-event/articleshow/21560614.cms
   tags: [Vehicle Dynamics, Suspension, Brakes]
   description: >-

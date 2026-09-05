@@ -1,6 +1,10 @@
 <article id="{{ include.project.id }}" class="flex flex-col md:flex-row gap-6 py-7 border-b border-border last:border-b-0 scroll-mt-8">
-  <div class="w-24 h-24 md:w-28 md:h-28 flex-shrink-0 bg-surface-muted flex items-center justify-center px-3 rounded-lg">
+  <div class="w-24 h-24 md:w-28 md:h-28 flex-shrink-0 bg-surface-muted flex items-center justify-center {% unless include.project.image %}px-3{% endunless %} rounded-lg overflow-hidden">
+    {% if include.project.image %}
+    <img src="{{ '/images/' | append: include.project.image | relative_url }}" alt="{{ include.project.image_alt | default: include.project.title }}" class="w-full h-full object-cover">
+    {% else %}
     <span class="font-display text-2xl font-semibold text-text text-center">{{ include.project.mark }}</span>
+    {% endif %}
   </div>
   <div class="flex-1">
     <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
