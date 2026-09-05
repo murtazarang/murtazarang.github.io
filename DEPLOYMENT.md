@@ -5,10 +5,10 @@ Cloudflare manages DNS for `murtaza.dev`, but Cloudflare account changes are per
 
 ## Publish the website
 
-1. Open [the repository's Pages settings](https://github.com/murtazarang/murtaza.github.io/settings/pages).
+1. Open [the repository's Pages settings](https://github.com/murtazarang/murtazarang.github.io/settings/pages).
 2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
 3. Push changes to the `main` branch.
-4. Open [the repository's Actions page](https://github.com/murtazarang/murtaza.github.io/actions) and confirm that **Deploy Jekyll site to GitHub Pages** succeeds.
+4. Open [the repository's Actions page](https://github.com/murtazarang/murtazarang.github.io/actions) and confirm that **Deploy Jekyll site to GitHub Pages** succeeds.
 5. Confirm that `https://murtazarang.github.io` loads before configuring the custom domain.
 
 ## Verify the domain with GitHub
@@ -22,7 +22,7 @@ Cloudflare manages DNS for `murtaza.dev`, but Cloudflare account changes are per
 
 ## Configure GitHub Pages for the custom domain
 
-1. Open [the repository's Pages settings](https://github.com/murtazarang/murtaza.github.io/settings/pages).
+1. Open [the repository's Pages settings](https://github.com/murtazarang/murtazarang.github.io/settings/pages).
 2. Enter `murtaza.dev` under **Custom domain** and save it.
 3. Keep the repository's root `CNAME` file set to `murtaza.dev`.
 
