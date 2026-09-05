@@ -13,13 +13,13 @@
   title: Field-Topology Feedback for Heterogeneous Swarms
   date: Current research
   role: Lead researcher
-  mark: Z
+  mark: Gray
   image: morton.png
-  image_alt: Multi-agent environments and spatial grids arranged using Morton order
+  image_alt: Heterogeneous multi-agent environments organized through Gray encoding followed by Morton ordering
   url: /research/#field-topology
   tags: [MARL, Swarm Coordination, Spatial Topology]
   description: >-
-    Field-topology feedback based on Gray-code Morton order for coordinating heterogeneous swarms over spatially structured fields.
+    Field-topology feedback using Gray encoding followed by Morton ordering to coordinate heterogeneous swarms over spatially structured fields.
     A manuscript is in preparation for ICRA 2027.
 
 - id: sarnet

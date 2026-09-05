@@ -14,9 +14,9 @@
 
 - id: field-topology
   title: Field-Topology Feedback
-  mark: Z
+  mark: Gray
   image: morton.png
-  description: Morton Z-code feedback for coordinating heterogeneous swarms over structured fields.
+  description: Gray encoding followed by Morton ordering for coordinating heterogeneous swarms over structured fields.
   url: /research/#field-topology
 
 - id: pisat
